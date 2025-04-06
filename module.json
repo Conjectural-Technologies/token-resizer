@@ -1,0 +1,30 @@
+{
+  "id": "token-resizer",
+  "title": "Token Resizer",
+  "description": "A small module for applying preconfigured lighting effects to tokens on the game canvas.",
+  "version": "1.0.0",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "Conjectural Technologies"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12.331",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/token-resizer.js"
+  ],
+  "styles": [
+    "styles/token-resizer.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+}
