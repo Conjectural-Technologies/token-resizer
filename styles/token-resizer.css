@@ -1,0 +1,43 @@
+.size-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.size-button {
+  height: 50px;
+  text-align: center;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  line-height: 1.2;
+}
+
+.size-button:hover {
+  background-color: #e0e0e0;
+}
+
+.size-button:active {
+  background-color: #d0d0d0;
+}
+
+.cancel-button {
+  background-color: #f00;
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #c00;
+}
+
+.cancel-button:active {
+  background-color: #a00;
+}
