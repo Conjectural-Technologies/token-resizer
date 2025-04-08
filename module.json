@@ -1,24 +1,21 @@
 {
-  "id": "token-resizer",
-  "title": "Token Resizer",
-  "description": "A small module for applying preconfigured lighting effects to tokens on the game canvas.",
-  "version": "1.0.0",
-  "readme": "README.md",
-  "authors": [
-    {
-      "name": "Conjectural Technologies"
-    }
-  ],
-  "compatibility": {
-    "minimum": "12.331",
-    "verified": "13"
-  },
-  "esmodules": [
-    "scripts/token-resizer.js"
-  ],
-  "styles": [
-    "styles/token-resizer.css"
-  ],
+	"id": "token-resizer",
+	"name": "token-resizer",
+	"title": "Token Resizer",
+	"description": "A small module for applying preconfigured sizes to tokens on the game canvas.",
+	"version": "1.0.0",
+	"authors": [{
+		"name": "Conjectural Technologies",
+		"url": "https://github.com/Conjectural-Technologies"
+	}],
+	"esmodules": ["scripts/token-resizer.js"],
+	"styles": ["styles/token-resizer.css"],
+	"minimumCoreVersion": "12.331",
+	"compatibleCoreVersion": "13",
+	"compatibility": {
+		"minimum": "12.331",
+		"verified": "13"
+	},
   "relationships": {
     "systems": [
       {
@@ -26,5 +23,8 @@
         "type": "system"
       }
     ]
-  }
+  },
+	"url": "https://github.com/Conjectural-Technologies/token-resizer",
+	"manifest": "https://raw.githubusercontent.com/Conjectural-Technologies/token-resizer/main/module.json",
+	"download": "https://github.com/Conjectural-Technologies/token-resizer/releases/token-resizer-v1.0.0.zip"
 }
